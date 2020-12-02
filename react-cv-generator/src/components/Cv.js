@@ -1,13 +1,29 @@
 import React from 'react'
-import Skills from './Skills'
-import Works from './Works'
+import ProfileSummary from './ProfileSummary'
+import WorkExperience from './WorkExperience'
+import Certificates from './Certificates'
+import Education from './Education'
+import PersonalProjects from './PersonalProjects'
+import ProfileDetail from './ProfileDetail'
+import '../../node_modules/bootstrap/dist/css/bootstrap.css'
+
 
 class Cv extends React.Component {
     render() {
       return (
-        <div>
-          <Skills></Skills>
-          <Works></Works>
+        <div className="container-fluid p-5">
+          <div className="row">
+            <div className="col-3">
+              <ProfileDetail />
+            </div>
+            <div className="col-9">
+              <ProfileSummary />
+              <WorkExperience />
+              <Certificates />
+              <Education />
+              <PersonalProjects />
+            </div>
+          </div> 
         </div>
       );
     }

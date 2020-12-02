@@ -1,8 +1,7 @@
 import React from 'react'
 import ReactToPrint from 'react-to-print';
+import './App.css'
 import Cv from './components/Cv'
-
-
 
 class App extends React.Component {
   render() {
