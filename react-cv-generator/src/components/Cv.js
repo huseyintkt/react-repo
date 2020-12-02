@@ -5,8 +5,9 @@ import Certificates from './Certificates'
 import Education from './Education'
 import PersonalProjects from './PersonalProjects'
 import ProfileDetail from './ProfileDetail'
+import Skills from './Skills'
+import Languages from './Languages'
 import '../../node_modules/bootstrap/dist/css/bootstrap.css'
-
 
 class Cv extends React.Component {
     render() {
@@ -15,6 +16,8 @@ class Cv extends React.Component {
           <div className="row">
             <div className="col-3">
               <ProfileDetail />
+              <Skills />
+              <Languages />
             </div>
             <div className="col-9">
               <ProfileSummary />

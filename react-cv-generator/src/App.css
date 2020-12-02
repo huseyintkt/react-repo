@@ -10,3 +10,7 @@ body {
 .lead {
     font-size: 16px !important;
 }
+
+.profile-detail-item{
+    font-size: 18px;
+}
