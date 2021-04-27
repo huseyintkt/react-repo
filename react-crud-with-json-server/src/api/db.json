@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Tablet",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+    },
+    {
+      "name": "test",
+      "description": "test5",
+      "id": 4
+    },
+    {
+      "name": "test",
+      "description": "test3",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+
+npx create-react-app react-crud-with-json-server
+npm start
+
+npm i bootstrap
+npm i react-router-dom
+npm i json-server
+npm i form-serialize
+
+created folder structure
+created router structure
+
+added db.json
+npx json-server --watch src/api/db.json --port 3001
+http://localhost:3001/products
+
+added components (static)
+
+completed render product methods
+completed add product methods
+completed delete product methods
+completed update product methods
